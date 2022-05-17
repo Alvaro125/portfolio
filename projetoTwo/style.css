@@ -1,0 +1,94 @@
+body{
+    font-family: 'poppins',sans-serif;
+}
+
+.ctn{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    font-family: 'poppins',sans-serif;
+    font-weight: 400;
+}
+.card{
+    border: 3px solid black;
+    width: 10rem;
+}
+
+.ctn.ul .card:nth-child(1) ul{
+    font-weight: lighter;
+    font-style: italic;
+    list-style: circle;
+}
+.ctn.ul .card:nth-child(2) ul{
+    font-weight: bold;
+    font-style: normal;
+    list-style: none;
+}
+.ctn.ul .card:nth-child(3) ul{
+    font-weight: bolder;
+    font-style: normal;
+    list-style: square;
+}
+.ctn.ul .card:nth-child(4) ul{
+    font-weight: 500;
+    font-style: italic;
+    list-style: disc;
+}
+
+
+.ctn.ol .card:nth-child(1) ol{
+    list-style: decimal;
+}
+.ctn.ol .card:nth-child(2) ol{
+    list-style: decimal-leading-zero;
+}
+.ctn.ol .card:nth-child(3) ol{
+    list-style: georgian;
+}
+.ctn.ol .card:nth-child(4) ol{
+    list-style: armenian;
+}
+.ctn.ol .card:nth-child(5) ol{
+    list-style: lower-alpha;
+}
+.ctn.ol .card:nth-child(6) ol{
+    list-style: lower-greek;
+}
+.ctn.ol .card:nth-child(7) ol{
+    list-style: lower-latin;
+}
+.ctn.ol .card:nth-child(8) ol{
+    list-style: lower-roman;
+}
+.ctn.ol .card:nth-child(9) ol{
+    list-style: upper-alpha;
+}
+.ctn.ol .card:nth-child(10) ol{
+    list-style: upper-latin;
+}
+.ctn.ol .card:nth-child(11) ol{
+    list-style: upper-roman;
+}
+
+.font{
+    font-size: 5rem;
+    text-decoration: none;
+}
+
+.font:link{
+    color: rgb(14, 13, 13);
+}
+.font:hover, .font:visited:hover{
+    color: rgb(4, 92, 151);
+}
+.font:visited{
+    color: rgb(4, 156, 50);
+}
+.font:visited:active, .font:active{
+    color: rgb(238, 194, 0);
+}
+
+#nota:focus{
+    background: rgb(130, 218, 221);
+}
