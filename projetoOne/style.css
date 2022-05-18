@@ -7,7 +7,7 @@ a:visited {
     text-decoration: none;
 }
 
-a:visited {
+a:visited, a {
     color: #edf2f4;
 }
 
