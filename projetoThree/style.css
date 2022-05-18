@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+.ctn{
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    position: relative;
+    display: flex;
+    padding: .5rem;
+    flex-direction: column;
+    background-color: aliceblue;
+    box-shadow: -10px 4px 1.5rem rgba(0, 0, 0, 0.25);
+    align-items: center;
+}
+
+.color{
+    position: relative;
+    width: 6.25rem;
+    height: 6.25rem;
+    border-radius: .5rem;
+    box-shadow: -10px 4px 1.5rem rgba(0, 0, 0, 0.25);
+}
+
+.card:nth-child(1) .color{
+    background-color: #00ffaa;
+}
+.card:nth-child(2) .color{
+    background-color: #892be28c;
+}
+.card:nth-child(3) .color{
+    background-color: rgb(42, 76, 228);
+}
+.card:nth-child(4) .color{
+    background-color: rgba(0, 33, 182, 0.64);
+}
+.card:nth-child(5) .color{
+    background-color: hsl(335, 75%, 47%);
+}
+.card:nth-child(6) .color{
+    background-color: hsla(17, 100%, 44%, 0.753);
+}
+.card:nth-child(7) .color{
+    background-color: darkmagenta;
+}
+.card:nth-child(8) .color{
+    background-color: initial;
+}
