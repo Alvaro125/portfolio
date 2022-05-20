@@ -2,6 +2,21 @@ body{
     margin: 0;
     padding: 0;
 }
+.sqr1, .sqr2, .sqr3{
+    width: 1.4rem;
+    height: 1.4rem;
+}
+.sqr1{
+    background: blue;
+}
+.sqr2{
+    background: red;
+}
+.sqr3{
+    background: green;
+}
+
+
 .ctn{
     font-family: 'poppins', sans-serif;
     display: flex;
@@ -9,10 +24,20 @@ body{
     justify-content: center;
     width: 100%;
     padding: 2rem 1rem;
+    gap: 1.5rem;
 }
 
 .card{
+    width: 7rem;
+    height: 7rem;
     display: flex;
+    box-shadow: 10px 10px 1rem rgba(0, 0, 0, 0.514);
+    padding: 2.5rem 1.5rem;
+    border-radius: 1rem;
+    gap: .5rem;
+}
+
+.card:nth-child(1){
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -21,8 +46,26 @@ body{
     padding: 2.5rem 1.5rem;
     border-radius: 1rem;
 }
-.card img{
+.card:nth-child(1) img{
     width: 6.25rem;
     height: auto;
     border-radius: .5rem;
+}
+
+.card:nth-child(2){
+    justify-content: end;
+    align-items: flex-start;
+}
+.card:nth-child(3){
+    justify-content: space-around;
+    align-items: stretch;
+}
+.card:nth-child(4){
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.card:nth-child(5){
+    justify-content: start;
+    align-items: baseline;
 }
