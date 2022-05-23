@@ -1,18 +1,81 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
     <title>Portfolio</title>
-</head>
-<body>
-    <h1>Projetos</h1>
-    <ul>
-        <li><a href="projetoOne/index.html">Project One</a></li>
-        <li><a href="projetoTwo/index.html">Project two</a></li>
-        <li><a href="projetoThree/index.html">Project Three</a></li>
-        <li><a href="projectFour/index.html">Project Four</a></li>
-    </ul>
-</body>
+  </head>
+  <body>
+    <header id="header">
+      <nav class="container">
+        <a class="logo" href="#"><span>Alvaro</span>M.F.</a>
+        <!-- menu -->
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#about">Curriculo</a></li>
+            <li><a class="title" href="#codes">Linguagens</a></li>
+            <li><a class="title" href="#projects">Projetos</a></li>
+            <li><a class="title" href="#contacts">Contatos</a></li>
+          </ul>
+        </div>
+        <!-- /menu -->
+        <div class="toggle icon-menu">
+          <ion-icon name="menu-outline"></ion-icon>
+        </div>
+        <div class="toggle icon-close">
+          <ion-icon name="close-outline"></ion-icon>
+        </div>
+      </nav>
+    </header>
+
+    <section id="home" class="section">
+      <div class="container grid">
+        <div class="image">
+          <img src="img/trabalho de desing_Prancheta 1.svg" alt="Perfil" />
+        </div>
+        <div class="text">
+          <h1>Olá! Sou Álvaro Martinez Ferreira</h1>
+          <p>
+            Sou Aspirante do Programa Alpha EdTech. <br />Sou formado no curso
+            tecnico de informatica WEB no IFMS. <br />
+            Sou Estudante de Sistemas de Informação na UFGD
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="codes" class="sections">
+        container
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container grid">
+            <h1>Projetos</h1>
+            <ul>
+              <li><a href="desafio00/index.html">Desafio 00</a></li>
+              <li><a href="projetoTwo/index.html">Project two</a></li>
+              <li><a href="projetoThree/index.html">Project Three</a></li>
+              <li><a href="projectFour/index.html">Project Four</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="main.js"></script>
+  </body>
 </html>

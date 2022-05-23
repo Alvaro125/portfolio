@@ -9,7 +9,6 @@ body{
     gap: 1rem;
     flex-direction: row;
     justify-content: space-around;
-    flex-wrap: wrap;
 }
 .card{
     position: relative;
@@ -52,4 +51,14 @@ body{
 }
 .card:nth-child(8) .color{
     background-color: initial;
+}
+
+.wrap-reverse{
+    flex-wrap: wrap-reverse;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.nowrap{
+    flex-wrap: nowrap;
 }
