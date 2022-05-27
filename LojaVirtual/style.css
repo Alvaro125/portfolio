@@ -194,9 +194,24 @@ nav .menu ul li:hover{
     align-items: center;
 }
 
-#product .card img {
+#product .card .image{
+    position: relative;
+    width: calc(3 * 6vw);
+    height: calc(4 * 6vw);
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#product .card img{
     position: relative;
     width: 100%;
+}
+#product .card img:hover{
+    width: 120%;
+    transition: width .5s;
 }
 
 #product .card .text {
@@ -307,6 +322,7 @@ footer {
 }
 
 #contatos {
+    padding: 30px 0;
     display: flex;
     flex-direction: column;
     grid-area: 1 / 1 / 2 / 4;
@@ -331,6 +347,7 @@ footer {
 }
 
 #navagation {
+    padding: 30px 0;
     display: flex;
     flex-direction: row;
     gap: 2rem;
@@ -501,6 +518,19 @@ footer {
         font-weight: bolder;
         margin-bottom: 0rem;
     }
+    #home .image {
+        position: relative;
+        width: 100vw;
+        height: auto;
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        gap: 1rem;
+        overflow: scroll;
+    }
 
 
 
@@ -614,10 +644,26 @@ footer {
         flex-direction: column;
         align-items: center;
     }
-    
-    #product .card img {
+
+    #product .card {
         position: relative;
-        width: 39vw;
+        padding: 1.875rem;
+        /* flex-grow: 3; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #product .card .image{
+        position: relative;
+        width: calc(3 * 10vw);
+        height: calc(4 * 10vw);
+        background-color: black;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
 
