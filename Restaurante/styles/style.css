@@ -1,0 +1,486 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3{
+    text-align: center;
+}
+a, a:visited{
+    color: #2f2e2e;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+.toggle{
+    display: none;
+}
+
+header{
+    height: 4.5rem;
+    background-color: #f9db79;
+}
+nav{
+    font-size: 1.125rem;
+    font-family: 'oswald';
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 0 2rem;
+}
+nav .logo{
+    font-family: 'belinda';
+    font-size: 2.5rem;
+}
+nav .content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+}
+nav .login{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+nav .midias{
+    font-size: 2rem;
+}
+nav .menu ul{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+nav .menu .login{
+    display: none;
+}
+
+#home{
+    width: 100%;
+    height: 40rem;
+    position: relative;
+    overflow: hidden;
+    background-color: #f9db79;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+#home img{
+    position: relative;
+}
+#home .text{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#home .text h2{
+    font-family: 'oswald', sans-serif;
+    font-size: 2.5rem;
+    margin: 0;
+}
+#home .text h1{
+    font-family: 'poppins', sans-serif;
+    font-size: 7.25rem;
+    font-weight: 900;
+    margin: 0;
+}
+
+.b1{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'oswald', sans-serif;
+    border:2px solid white;
+    background: transparent;
+    font-size: 1.5rem;
+    padding: 2px 2rem;
+}
+.b2{
+    color: #2f2e2e;
+    text-transform: uppercase;
+    font-family: 'oswald', sans-serif;
+    border:2px solid #2f2e2e;
+    background: transparent;
+    font-size: 1.5rem;
+    padding: 2px 2rem;
+}
+
+
+.grid {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 90vh;
+    background: white;
+}
+.grid img{
+    position: relative;
+    width: 50%;
+    height: 123.3%;
+    flex-grow: 3;
+}
+.grid .text{
+    position: relative;
+    width: 50%;
+    color: #2f2e2e;
+    flex-grow: 3;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.grid .text h2{
+    margin: 0;
+    font-family: 'oswald',sans-serif;
+    font-size: 2.375rem;
+    font-weight: 400;
+}
+.grid .text h3{
+    margin: 0;
+    font-family: 'belinda', sans-serif;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+.grid .text p{
+    width: 80%;
+    margin: 3rem 0;
+    font-family: 'oswald',sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+#local{
+    flex-direction: row-reverse;
+}
+
+
+
+.parallax{
+    width: 100%;
+    height: 95vh;
+    position: relative;
+    overflow: hidden;
+    background-color: #b5e8d5;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.parallax img{
+    position: relative;
+    width: 100rem;
+}
+.parallax .text{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.parallax .text h3{
+    font-family: 'oswald', sans-serif;
+    font-size: 2.375rem;
+    margin: 0;
+}
+.parallax .text h1{
+    font-family: 'poppins', sans-serif;
+    font-size: 7.25rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+#bufe{
+    background-color: #ffbfb3;
+}
+
+
+
+#icecream{
+    position: relative;
+    overflow: hidden;
+    background: url(../imgs/listras.webp), #b5e8d5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90vh;
+}
+#icecream img{
+    height: 80%;
+}
+
+
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    font-family: 'oswald', sans-serif;
+    padding: .5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer #navegation .ctn{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+
+}
+footer #navegation .ctn .block{
+    font-size: 1rem;
+}
+footer #navegation .ctn .block p{
+    margin: 0;
+}
+footer #navegation .ctn .block .title{
+    font-size: 1.5rem;
+    margin: 0 0 1rem;
+}
+
+footer #autor{
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10rem;
+}
+footer #autor .midias{
+    display: flex;
+    gap: 1rem;
+}
+footer .envio{
+    display: flex;
+    flex-direction: column;
+}
+footer .envio input[type="email"]{
+    font-family: 'oswald', sans-serif;
+    padding: 0;
+    width: 14.75rem;
+    height: 2.5rem;
+    border: 2px solid white;
+    background-color: black;
+    margin-bottom: 4px;
+}
+footer .envio input[type="submit"]{
+    font-family: 'oswald', sans-serif;
+    padding: 0;
+    width: 15rem;
+    height: 2.5rem;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+}
+footer .envio input[type="submit"]:hover{
+    background-color: #2f2e2e;
+    font-family: 'oswald', sans-serif;
+    transition: all .5s;
+}
+footer #autor .midias img{
+    width: 2rem;
+    background-color: white;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: .25rem;
+    border-radius: 50%;
+}
+
+@media (max-width: 700px){
+    .toggle{
+        position: absolute;
+        display: block;
+        right: -1rem;
+        z-index: 21;
+    }
+    nav.show .toggle{
+        z-index: 21;
+    }
+    nav{
+        font-size: 2.125rem;
+        font-family: 'oswald';
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    nav .menu{
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 20;
+        display: flex;
+        height: 100vh;
+        width: 0;
+        background-color: white;
+        transition: width 1s;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    nav.show .menu{
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 20;
+        display: flex;
+        height: 100vh;
+        width: 70vw;
+        background-color: white;
+        transition: width 1s;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    nav .content{
+        display: none;
+    }
+    nav .menu ul{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-left: 2rem;
+        align-items: flex-start;
+        justify-content: center;
+        text-transform: uppercase;
+    }
+    nav .menu .login{
+        position: relative;
+        display: flex;
+        margin-left: 2rem;
+        margin-top: -1.5rem;
+    }
+    nav.show .menu .login{
+        margin-left: 2rem;
+        position: relative;
+        display: flex;
+        margin-top: -1.5rem;
+    }
+
+
+
+
+    footer{
+        background-color: black;
+        color: white;
+        font-family: 'oswald', sans-serif;
+        padding: .5rem 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+    footer #navegation .ctn{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 1rem;
+    
+    }
+    footer #navegation .ctn .block{
+        font-size: 1.25rem;
+    }
+    footer #navegation .ctn .block p{
+        margin: 0;
+    }
+    footer #navegation .ctn .block .title{
+        font-size: 2rem;
+        margin: 0 0 1rem;
+    }
+    
+    footer #autor{
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+    footer #autor .midias{
+        display: flex;
+        gap: 1rem;
+    }
+    footer .envio{
+        display: flex;
+        flex-direction: column;
+    }
+    footer .envio input[type="email"]{
+        font-family: 'oswald', sans-serif;
+        padding: 0;
+        width: 79.5vw;
+        height: 2.5rem;
+        border: 2px solid white;
+        background-color: black;
+        margin-bottom: 4px;
+    }
+    footer .envio input[type="submit"]{
+        font-family: 'oswald', sans-serif;
+        padding: 0;
+        width: 80vw;
+        height: 2.5rem;
+        border: 2px solid white;
+        background-color: black;
+        color: white;
+    }
+    footer .envio input[type="submit"]:hover{
+        background-color: #2f2e2e;
+        font-family: 'oswald', sans-serif;
+        transition: all .5s;
+    }
+    footer #autor .midias img{
+        width: 2rem;
+        background-color: white;
+        width: 1.5rem;
+        height: 1.5rem;
+        padding: .25rem;
+        border-radius: 50%;
+    }
+
+    .grid{
+        flex-direction: column-reverse;
+        height: auto;
+    }
+    .grid .text{
+        margin: 1rem 0;
+    }
+    .grid img{
+        width: 100vw;
+    }
+    #local{
+        flex-direction: column-reverse;
+    }
+
+    #home .text h1{
+        font-size: 3rem;
+    }
+    .parallax .text h1{
+        font-size: 4rem;
+    }
+}

@@ -1,0 +1,16 @@
+<svg version="1.1" width="30" height="30" class="_2XbKI _1J3vy _1_O7b  X8cCv _3oeLy     _2kVrO _1f63k">
+    <g>
+        <rect width="100%" height="100%" data-hook="bgFill" class="_2HZc1"></rect>
+        <svg width="30" height="30" x="0" y="0" viewBox="0 0 65 65">
+            <g data-hook="textFill">
+                <path transform="translate(-1, -1)" class="_3eJ0f" d="M51,24.1a14.2,14.2,0,0,1-4.1,1.1A7.1,7.1,0,0,0,50,21.3,14.1,14.1,0,0,1,45.5,23a7.1,7.1,0,0,0-12.1,6.5,20.1,20.1,0,0,1-14.6-7.4,7.1,7.1,0,0,0,2.2,9.4,7.1,7.1,0,0,1-3.2-.9h0a7.1,7.1,0,0,0,5.7,6.9l-1.9.2H20.4A7.1,7.1,0,0,0,27,42.7a14.2,14.2,0,0,1-8.8,3H16.5a20,20,0,0,0,10.8,3.2c13,0,20.1-10.8,20.1-20.1,0-.3,0-.6,0-.9A14.3,14.3,0,0,0,51,24.1"></path>
+            </g>
+        </svg>
+    </g>
+    <svg width="30" height="30" viewBox="0 0 300 300">
+        <circle cx="150" cy="150" r="145" stroke-width="10" data-hook="circleBorder" class="_3cCKK"></circle>
+    </svg>
+    <svg width="30" height="30" viewBox="0 0 300 300">
+        <rect x="5" y="5" width="290" height="290" data-hook="squareBorder" class="_29nDK" stroke-width="10"></rect>
+    </svg>
+</svg>
