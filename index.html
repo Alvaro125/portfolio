@@ -9,8 +9,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-
-    <title>Portfolio</title>
+    <title>Álvaro Martinez Ferreira | Desenvolvedor Fullstack</title>
   </head>
   <body>
     <header id="header">
@@ -20,8 +19,9 @@
         <div class="menu">
           <ul class="grid">
             <li><a class="title" href="#home">Início</a></li>
-            <li><a class="title" href="#about">Curriculo</a></li>
-            <li><a class="title" href="#code">Linguagens</a></li>
+            <li><a class="title" href="#about">Sobre Mim</a></li>
+            <li><a class="title" href="#experience">Experiência</a></li>
+            <li><a class="title" href="#skills">Habilidades</a></li>
             <li><a class="title" href="#projects">Projetos</a></li>
             <li><a class="title" href="#contacts">Contatos</a></li>
           </ul>
@@ -43,70 +43,266 @@
         </div>
         <div class="text">
           <h1>Olá! Sou Álvaro Martinez Ferreira</h1>
+          <p class="job-title">Desenvolvedor Fullstack (Node.js/Vue.js)</p>
           <p>
-            Sou Aspirante do Programa Alpha EdTech. <br />Sou formado no curso
-            tecnico de informatica WEB no IFMS. <br />
-            Sou Estudante de Sistemas de Informação na UFGD
+            Desenvolvedor com mais de 5 anos de experiência em JavaScript, especializado em Back-end com Node.js (Express, NestJS) e Front-end com Vue.js. Atualmente trabalho como Engenheiro de Software Pleno na Peering LATAM.
           </p>
+          <div class="buttons">
+            <a href="#contacts" class="button primary">Entre em contato</a>
+            <a href="#projects" class="button secondary">Ver projetos</a>
+          </div>
         </div>
       </div>
     </section>
 
     <section id="about" class="section">
-        <div class="container grid">
-            <ul class="list">
-                <li>
-                    <h2>2019</h2>
-                    <p>Aprovado Exame de Seleção IFMS</p>
-                </li>
-                <li>
-                    <h2>2021</h2>
-                    <p>Conclusão do Curso Tecnico de informatica web</p>
-                </li>
-                <li>
-                    <h2>2022</h2>
-                    <p>Aprovado No Curso de Sistemas de Informação na UFGD</p>
-                </li>
-            </ul>
+      <div class="container grid">
+        <div class="about-text">
+          <h2 class="section-title">Sobre Mim</h2>
+          <p>
+            Desenvolvedor Fullstack com mais de 5 anos de experiência em JavaScript, especializado em Back-end com Node.js (Express, NestJS) e Front-end com Vue.js. Experiência sólida em arquitetura de microsserviços, APIs RESTful, e bancos de dados relacionais e não relacionais. Atuação em ambientes cloud AWS (SQS, SNS, RDS, Lambda, API Gateway) e desenvolvimento escalável.
+          </p>
+          <p>
+            Sou apaixonado por desenvolver soluções eficientes que agreguem valor ao negócio, sempre focando em qualidade de código, performance e boas práticas.
+          </p>
         </div>
+        <div class="education">
+          <h3>Formação Acadêmica</h3>
+          <ul class="timeline">
+            <li>
+              <h4>Bacharelado em Sistemas de Informação</h4>
+              <p class="institution">UFGD</p>
+              <p class="period">2022 - Atual | Dourados, MS</p>
+            </li>
+            <li>
+              <h4>Técnico em Informática para Internet</h4>
+              <p class="institution">IFMS</p>
+              <p class="period">2019 - 2022 | Dourados, MS</p>
+            </li>
+            <li>
+              <h4>Desenvolvedor Web</h4>
+              <p class="institution">Alpha EdTech</p>
+              <p class="period">2022 - 2024 | Remoto</p>
+            </li>
+          </ul>
+        </div>
+      </div>
     </section>
 
-    <section id="code" class="section">
-        <div class="container grid">
-            <h1>Linguagens que Trabalho:</h1>
-            <div class="ctn">
-                <div class="card">
-                    <div class="color"><img src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-css-logo-png-transparent-svg-vector-bie-supply-9.png" alt="CSS"></div>
-                    <h2>CSS</h2>
+    <section id="experience" class="section">
+      <div class="container">
+        <h2 class="section-title">Experiência Profissional</h2>
+        <div class="experience-grid">
+          <div class="experience-card">
+            <h3>Engenheiro de Software Pleno</h3>
+            <p class="company">Peering LATAM</p>
+            <p class="period">Jun 2024 – Atual | Remoto</p>
+            <ul class="responsibilities">
+              <li>Desenvolvimento Fullstack de interfaces web e APIs para análise de fluxo de dados utilizando Vue.js, Go e Kafka.</li>
+              <li>Criação de serviços para alerta de ataques DDoS usando Bun.js e webhooks.</li>
+              <li>Liderança no desenvolvimento da nova interface de mitigação DDoS com Nuxt.js.</li>
+              <li>Integração de ferramentas como Grafana e ClickHouse para visualização e análise de dados.</li>
+            </ul>
+          </div>
+          <div class="experience-card">
+            <h3>Desenvolvedor Fullstack (Estágio)</h3>
+            <p class="company">Teaga</p>
+            <p class="period">Nov 2022 – Out 2023 | Remoto</p>
+            <ul class="responsibilities">
+              <li>Desenvolvimento de servidores back-end com Java (Spring Boot) para fintech imobiliária.</li>
+              <li>Criação de aplicativos móveis em Flutter e interfaces web em Next.js.</li>
+              <li>Integração de APIs e melhorias em performance e escalabilidade.</li>
+            </ul>
+          </div>
+          <div class="experience-card">
+            <h3>Formação Profissional em Desenvolvimento Web</h3>
+            <p class="company">Alpha EdTech</p>
+            <p class="period">Abr 2022 – Out 2023 | Remoto</p>
+            <ul class="responsibilities">
+              <li>Treinamento intensivo em desenvolvimento Fullstack.</li>
+              <li>Aprimoramento em lógica de programação com JavaScript, front-end (HTML, CSS, Figma) e back-end com Node.js e Express.</li>
+              <li>Experiência prática com Docker, Redis, PostgreSQL e MongoDB.</li>
+            </ul>
+          </div>
+          <div class="experience-card">
+            <h3>Finalista</h3>
+            <p class="company">Deco Hackathon III</p>
+            <p class="period">Maio 2023 | Remoto</p>
+            <ul class="responsibilities">
+              <li>Desenvolvimento de componentes para plataforma Deco.cx.</li>
+              <li>Criação de um contador regressivo para descontos e site utilizando os componentes.</li>
+              <li>Finalista da hackathon, premiado com R$350.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Habilidades Técnicas</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Back-end</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js"></div>
+                            <h4>Node.js</h4>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express"></div>
+                            <h4>Express</h4>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg" alt="NestJS"></div>
+                            <h4>NestJS</h4>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg" alt="Go"></div>
+                            <h4>Go</h4>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="Django"></div>
+                            <h4>Django</h4>
+                        </div>
+                    </div>
                 </div>
-                <div class="card">
-                    <div class="color"><img src="https://logodownload.org/wp-content/uploads/2016/10/html5-logo-9.png" alt="html"></div>
-                    <h2>HTML</h2>
+                
+                <div class="skill-category">
+                    <h3>Front-end</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" alt="Vue.js"></div>
+                            <h4>Vue.js</h4>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nuxtjs/nuxtjs-original.svg" alt="Nuxt.js"></div>
+                            <h4>Nuxt.js</h4>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"></div>
+                            <h4>React.js</h4>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js"></div>
+                            <h4>Next.js</h4>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript"></div>
+                            <h4>TypeScript</h4>
+                        </div>
+                    </div>
                 </div>
-                <div class="card">
-                    <div class="color"><img src="https://cdn.picpng.com/logo/language-logo-python-44976.png" alt="Python"></div>
-                    <h2>Python</h2>
+                
+                <div class="skill-category">
+                    <h3>Banco de Dados</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL"></div>
+                            <h4>MySQL</h4>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL"></div>
+                            <h4>PostgreSQL</h4>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB"></div>
+                            <h4>MongoDB</h4>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" alt="Redis"></div>
+                            <h4>Redis</h4>
+                        </div>
+                    </div>
                 </div>
-                <div class="card">
-                    <div class="color"><img src="https://logospng.org/download/javascript/logo-javascript-1024.png" alt="JavaScript"></div>
-                    <h2>JavaScript</h2>
+                
+                <div class="skill-category">
+                    <h3>Cloud & DevOps</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS"></div>
+                            <h4>AWS</h4>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker"></div>
+                            <h4>Docker</h4>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"></div>
+                            <h4>Git</h4>
+                        </div>
+                    </div>
                 </div>
-                <div class="card">
-                    <div class="color"><img src="http://assets.stickpng.com/thumbs/5848104fcef1014c0b5e4950.png" alt="MySQL"></div>
-                    <h2>MySQL</h2>
-                </div>
-                <div class="card">
-                    <div class="color"><img src="https://toppng.com/uploads/preview/mongodb-logo-11609369386lqoc6r2ga9.png" alt="JavaScript"></div>
-                    <h2>MongoDB</h2>
+            </div>
+            
+            <div class="languages">
+                <h3>Idiomas</h3>
+                <div class="language-container">
+                    <div class="language">
+                        <span class="flag">🇧🇷</span>
+                        <span class="language-name">Português</span>
+                        <span class="language-level">Nativo</span>
+                    </div>
+                    <div class="language">
+                        <span class="flag">🇺🇸</span>
+                        <span class="language-name">Inglês</span>
+                        <span class="language-level">Básico</span>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <section id="projects" class="section">
-        <div class="container grid">
-            <h1>Projetos</h1>
-            <ul>
+        <div class="container">
+            <h2 class="section-title">Projetos de Destaque</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/api/placeholder/400/250" alt="Interface de Mitigação DDoS" />
+                    </div>
+                    <div class="project-content">
+                        <h3>Interface de Mitigação DDoS</h3>
+                        <p>Desenvolvimento de uma interface completa em Nuxt.js para gerenciamento de ataques DDoS.</p>
+                        <div class="project-tags">
+                            <span class="tag">Nuxt.js</span>
+                            <span class="tag">Vue.js</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/api/placeholder/400/250" alt="Aplicativo MEL" />
+                    </div>
+                    <div class="project-content">
+                        <h3>Aplicativo MEL</h3>
+                        <p>Plataforma para divulgação de eventos locais, utilizando Node.js e MongoDB.</p>
+                        <div class="project-tags">
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MongoDB</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/api/placeholder/400/250" alt="Componentes Deco.cx" />
+                    </div>
+                    <div class="project-content">
+                        <h3>Componentes Deco.cx</h3>
+                        <p>Criação de componentes personalizados para e-commerce na plataforma Deco.cx.</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">E-commerce</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <h3 class="other-projects-title">Outros Projetos</h3>
+            <ul class="other-projects-list">
               <li><a href="desafio00/index.html">Desafio 00</a></li>
               <li><a href="projetoTwo/index.html">Project Two</a></li>
               <li><a href="projetoThree/index.html">Project Three</a></li>
@@ -117,6 +313,44 @@
             </ul>
         </div>
     </section>
+
+    <section id="contacts" class="section">
+        <div class="container">
+            <h2 class="section-title">Contatos</h2>
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <a href="mailto:alvaromartinezferreira@gmail.com">alvaromartinezferreira@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <ion-icon name="school-outline"></ion-icon>
+                    <a href="mailto:alvaro.ferreira049@academico.ufgd.edu.br">alvaro.ferreira049@academico.ufgd.edu.br</a>
+                </div>
+                <div class="contact-item">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                    <a href="https://www.linkedin.com/in/álvaro-martinez-ferreira/" target="_blank">linkedin.com/in/álvaro-martinez-ferreira</a>
+                </div>
+                <div class="contact-item">
+                    <ion-icon name="logo-github"></ion-icon>
+                    <a href="https://github.com/Alvaro125" target="_blank">github.com/Alvaro125</a>
+                </div>
+            </div>
+            
+            <div class="download-cv">
+                <a href="#" class="button primary">
+                    <ion-icon name="download-outline"></ion-icon>
+                    Baixar Currículo
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Álvaro Martinez Ferreira. Todos os direitos reservados.</p>
+            <p>Desenvolvedor Fullstack (Node.js/Vue.js)</p>
+        </div>
+    </footer>
 
     <script
       type="module"
